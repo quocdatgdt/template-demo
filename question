@@ -1,0 +1,24 @@
+
+- Mỗi khi tạo migration đều có Schema::create('users', function (Blueprint $table) và $table->timestamps();
+-> Blueprint $table có tác dụng gì?
+-> $table->timestamps() có tác dụng gì?
+
+- 2014_10_12_000000_create_users_table.php và 2014_10_12_100000_create_password_resets_table.php có cần thiết giữ lại không?
+
+- Anh tạo các feild có kiểu dữ liệu string, integer... khóa chính khóa ngoại e hiểu syntax của migration rồi
+
+- Nhưng anh giải thích sơ về chức năng của từng table (dùng để làm gì và gắn với chức năng nào?)
+2016_06_13_171726_create_statusmp3_table.php:
+->
+2016_06_13_171803_create_category_table.php:
+->
+2016_06_13_171853_create_storemp3_table.php: 
+->
+2016_06_16_160318_create_account_storemp3_table.php: 
+->
+2016_06_16_164204_create_level_table.php:
+->
+2016_06_16_164229_create_author_table.php:
+->
+2016_06_16_164300_create_account_table.php:
+
